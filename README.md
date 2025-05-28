@@ -93,7 +93,7 @@ To view real-time logs:
 ```bash
 journalctl -u synchronizer-cli -f
 ```
-
+![Logs in systemd Example](./imahe.png)
 ---
 
 ## 📁 File Locations
