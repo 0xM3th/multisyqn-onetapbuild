@@ -85,6 +85,20 @@ If you're running your Multisyqn node on a VPS and want to access the web dashbo
 Once set up, you can visit ```127.0.0.1:3000``` in your browser to access the Multisyqn dashboard hosted on your VPS.
 ![Syncqchronizer Dashboard Example](./photo_2025-05-28_17-21-13.jpg)
 ---
+## 🔄 Updating to synchronizer-cli\@2.0.5
+
+To update your synchronizer CLI to the latest version (2.0.5), run the following commands:
+
+```bash
+sudo systemctl stop synchronizer-cli
+sudo systemctl stop synchronizer-cli-web
+rm -rf /usr/bin/synchronize
+npm install -g synchronizer-cli
+npm list -g synchronizer-cli --depth=0
+```
+![version (2.0.5)](./ngek.png)
+---
+
 
 ## 📋 Monitoring
 
