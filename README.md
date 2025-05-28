@@ -69,6 +69,21 @@ sudo systemctl enable synchronizer-cli-web
 sudo systemctl start synchronizer-cli-web
 ```
 
+If you're running your Multisyqn node on a VPS and want to access the web dashboard locally, you can use SSH port forwarding with a tool like [Termius](https://termius.com/):
+
+#### 📡 Example Port Forwarding (using Termius)
+
+* **Local port number:** `3000`
+* **Bind address:** `127.0.0.1`
+* **Select your vps where you run it **
+* **Intermediate host:** Your VPS (e.g. `russel`)
+* **Destination address:** `127.0.0.1`
+* **Destination port number:** `3000`
+
+![Termius Port Forwarding Example](./041700d3-76da-4eb1-8428-78264187991a.png)
+
+Once set up, you can visit `http://localhost:3000` in your browser to access the Multisyqn dashboard hosted on your VPS.
+
 ---
 
 ## 📋 Monitoring
