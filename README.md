@@ -83,7 +83,7 @@ If you're running your Multisyqn node on a VPS and want to access the web dashbo
 ![Termius Port Forwarding Example](./image.png)
 
 Once set up, you can visit ```127.0.0.1:3000``` in your browser to access the Multisyqn dashboard hosted on your VPS.
-![Syncqchronizer Dashboard Example](./photo_2025-05-28_17-21-13.jpg)
+![Syncqchronizer Dashboard Example](./pogi.png)
 ---
 ## 🔄 Updating to synchronizer-cli\@2.0.5
 
