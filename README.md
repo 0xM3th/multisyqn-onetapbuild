@@ -80,7 +80,7 @@ If you're running your Multisyqn node on a VPS and want to access the web dashbo
 * **Destination address:** `127.0.0.1`
 * **Destination port number:** `3000`
 
-![Termius Port Forwarding Example](./041700d3-76da-4eb1-8428-78264187991a.png)
+![Termius Port Forwarding Example](./image.png)
 
 Once set up, you can visit `http://localhost:3000` in your browser to access the Multisyqn dashboard hosted on your VPS.
 
