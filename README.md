@@ -75,7 +75,7 @@ If you're running your Multisyqn node on a VPS and want to access the web dashbo
 
 * **Local port number:** `3000`
 * **Bind address:** `127.0.0.1`
-* **Select your vps where you run it **
+* **Select your vps where you run it**
 * **Intermediate host:** Your VPS (e.g. `russel`)
 * **Destination address:** `127.0.0.1`
 * **Destination port number:** `3000`
