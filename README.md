@@ -128,7 +128,7 @@ If you encounter issues:
 
 * Double-check your Synq key and wallet credentials.
 * Use `journalctl` logs for debugging.
-* Reach out to the [Multisynq Discord](https://discord.gg/5PhnYm5z) 
+* Reach out to the [Multisynq Discord](https://discord.gg/5PhnYm5z) [Startsynqing Website](https://www.startsynqing.com/community/drinktheblue)
 * Use me referral to support me: [startsynqing](https://www.startsynqing.com/?ref=0bac73-w8yp5o)
 
 
