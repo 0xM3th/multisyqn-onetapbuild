@@ -129,9 +129,9 @@ If you encounter issues:
 * Use `journalctl` logs for debugging.
 * Reach out to the [Multisynq Discord](https://discord.gg/5PhnYm5z) or create an issue in this repo.
 * Use me referral to support me: [startsynqing](https://www.startsynqing.com/?ref=0bac73-w8yp5o)
-* Synq key: 
+* community code: 
 ```bash 
-   drinktheblue
+   testthree
    ```
 
 ---
