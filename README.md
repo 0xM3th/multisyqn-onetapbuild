@@ -99,7 +99,7 @@ sudo systemctl start synchronizer-cli
 sudo systemctl enable synchronizer-cli-web
 sudo systemctl start synchronizer-cli-web
 ```
-![version (2.0.12)](./potaa.png)
+![version (2.0.12)](./potaaa.png)
 ---
 
 
