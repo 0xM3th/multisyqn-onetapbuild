@@ -87,7 +87,7 @@ Once set up, you can visit ```127.0.0.1:3000``` in your browser to access the Mu
 ---
 ## 🔄 Updating to synchronizer-cli\@2.0.6
 
-To update your synchronizer CLI to the latest version (2.0.5), run the following commands:
+To update your synchronizer CLI to the latest version (2.0.6), run the following commands:
 
 ```bash
 sudo systemctl stop synchronizer-cli
