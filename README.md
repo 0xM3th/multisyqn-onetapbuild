@@ -94,6 +94,10 @@ sudo systemctl stop synchronizer-cli
 sudo systemctl stop synchronizer-cli-web
 npm install -g synchronizer-cli
 npm list -g synchronizer-cli --depth=0
+sudo systemctl enable synchronizer-cli
+sudo systemctl start synchronizer-cli
+sudo systemctl enable synchronizer-cli-web
+sudo systemctl start synchronizer-cli-web
 ```
 ![version (2.0.8)](./potaa.png)
 ---
