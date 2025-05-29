@@ -92,8 +92,6 @@ To update your synchronizer CLI to the latest version (2.0.8), run the following
 ```bash
 sudo systemctl stop synchronizer-cli
 sudo systemctl stop synchronizer-cli-web
-rm -rf /usr/bin/synchronize
-rm -r synqchronizer
 npm install -g synchronizer-cli
 npm list -g synchronizer-cli --depth=0
 ```
