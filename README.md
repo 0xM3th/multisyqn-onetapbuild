@@ -97,7 +97,7 @@ npm list -g synchronizer-cli --depth=0
 sudo systemctl start synchronizer-cli
 sudo systemctl start synchronizer-cli-web
 ```
-![version (2.0.12)](./potaaa.png)
+![version (2.0.12)](./aaaa.png)
 ---
 
 
