@@ -21,6 +21,43 @@ A one-tap deployment setup for running a Multisynq node using the `synchronizer`
 
   * Synq Key
   * Wallet Address & Password
+---
+## 🧰 Initial Setup (if needed)
+
+If your VPS does **not** already have **Node.js** and **Docker**, install them first:
+
+### 🟢 Install Latest Node.js (Global)
+
+```bash
+sudo apt update
+sudo apt install -y curl
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+sudo apt install -y nodejs
+node -v
+npm -v
+```
+
+### 🐳 Install Latest Docker
+
+```bash
+sudo apt update
+sudo apt install -y ca-certificates curl gnupg lsb-release
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+echo \ 
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+sudo apt update
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# Test Docker
+sudo docker run hello-world
+```
+
+If Node.js and Docker are already installed, skip this section and continue to the installation.
 
 ---
 
