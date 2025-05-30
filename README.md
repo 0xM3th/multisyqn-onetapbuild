@@ -23,6 +23,7 @@ A one-tap deployment setup for running a Multisynq node using the `synchronizer`
 
 ---
 ## Windows App available [HERE](https://downloads.multisynq.io/Multisynq-Synchronizer-Win-pre.exe)
+
 ---
 ## 🧰 Initial Setup (if needed)
 
