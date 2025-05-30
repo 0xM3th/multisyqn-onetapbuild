@@ -20,8 +20,11 @@ A one-tap deployment setup for running a Multisynq node using the `synchronizer`
 
   * Synq Key
   * Wallet Address & Password
+
 ---
 ## Windows App available [HERE](https://downloads.multisynq.io/Multisynq-Synchronizer-Win-pre.exe)
+---
+
 ## 🧰 Initial Setup (if needed)
 
 If your VPS does **not** already have **Node.js** and **Docker**, install them first:
