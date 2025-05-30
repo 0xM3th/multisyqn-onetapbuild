@@ -26,6 +26,16 @@ A one-tap deployment setup for running a Multisynq node using the `synchronizer`
 
 If your VPS does **not** already have **Node.js** and **Docker**, install them first:
 
+### ✨ Recommended System Packages
+```bash
+sudo apt-get update && sudo apt-get upgrade -y
+```
+
+```bash
+sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev screen -y
+```
+
+
 ### 🟢 Install Latest Node.js (Global)
 
 ```bash
