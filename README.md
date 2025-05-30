@@ -22,7 +22,7 @@ A one-tap deployment setup for running a Multisynq node using the `synchronizer`
   * Wallet Address & Password
 
 ---
-## Windows App available [HERE](https://downloads.multisynq.io/Multisynq-Synchronizer-Win-pre.exe)
+## 📦Windows App available [HERE](https://downloads.multisynq.io/Multisynq-Synchronizer-Win-pre.exe)
 
 ---
 ## 🧰 Initial Setup (if needed)
