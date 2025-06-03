@@ -79,7 +79,7 @@ If Node.js and Docker are already installed, skip this section and continue to t
 ### 1. Install the Synchronizer CLI
 
 ```bash
-npm install -g synqchronizer
+npm install -g synchronizer
 ```
 
 ### 2. Initialize your Node
