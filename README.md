@@ -125,10 +125,10 @@ To update your synchronizer CLI to the latest version (2.2.6), run the following
 ```bash
 sudo systemctl stop synchronizer-cli
 sudo systemctl stop synchronizer-cli-web
-npm install -g synchronizer-cli
-npm list -g synchronizer-cli --depth=0
+npm update -g synchronizer-cli
 sudo systemctl start synchronizer-cli
 sudo systemctl start synchronizer-cli-web
+npm list -g synchronizer-cli --depth=0
 ```
 ![version (2.2.6)](./ras.png)
 ---
